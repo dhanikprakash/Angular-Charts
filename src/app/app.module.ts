@@ -12,6 +12,7 @@ import { PiechartComponent } from './components/piechart/piechart.component';
 import { BarchartComponent } from './components/barchart/barchart.component';
 import { InputComponent } from './components/input/input.component';
 import { GoogleChartsModule } from 'angular-google-charts';
+import {MAT_DATE_LOCALE} from '@angular/material';
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,7 +32,7 @@ import { GoogleChartsModule } from 'angular-google-charts';
     GoogleChartsModule,
     MatFormFieldModule
   ],
-  providers: [],
+  providers: [{provide: MAT_DATE_LOCALE, useValue: 'en-GB'}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

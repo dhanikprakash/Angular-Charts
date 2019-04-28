@@ -6,7 +6,8 @@ import {
   MatIconModule,
   MatCardModule,
   MatDialogModule,
-
+  MatDatepickerModule,
+  MatNativeDateModule,
   MatSelectModule
 } from '@angular/material';
 
@@ -21,6 +22,8 @@ import {
     MatCardModule,
     MatDialogModule,
     MatSelectModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
     MatFormFieldModule],
   exports: [MatButtonModule,
      MatCheckboxModule,
@@ -32,6 +35,8 @@ import {
     MatCardModule,
     MatDialogModule,
     MatSelectModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
     MatFormFieldModule],
   declarations: []
 })
