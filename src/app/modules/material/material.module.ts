@@ -8,7 +8,11 @@ import {
   MatDialogModule,
   MatDatepickerModule,
   MatNativeDateModule,
-  MatSelectModule
+
+  MatPaginatorModule ,
+  MatTableModule,
+  MatSelectModule,
+  
 } from '@angular/material';
 
 @NgModule({
@@ -24,6 +28,8 @@ import {
     MatSelectModule,
     MatDatepickerModule,
     MatNativeDateModule,
+    MatPaginatorModule ,
+    MatTableModule,
     MatFormFieldModule],
   exports: [MatButtonModule,
      MatCheckboxModule,
@@ -37,6 +43,9 @@ import {
     MatSelectModule,
     MatDatepickerModule,
     MatNativeDateModule,
+
+    MatPaginatorModule ,
+    MatTableModule,
     MatFormFieldModule],
   declarations: []
 })

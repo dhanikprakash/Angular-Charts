@@ -13,6 +13,7 @@ import { BarchartComponent } from './components/barchart/barchart.component';
 import { InputComponent } from './components/input/input.component';
 import { GoogleChartsModule } from 'angular-google-charts';
 import {MAT_DATE_LOCALE} from '@angular/material';
+import { DatatableComponent } from './components/datatable/datatable.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +22,8 @@ import {MAT_DATE_LOCALE} from '@angular/material';
     RentComponent,
     PiechartComponent,
     BarchartComponent,
-    InputComponent
+    InputComponent,
+    DatatableComponent
   ],
   imports: [
     BrowserModule,
