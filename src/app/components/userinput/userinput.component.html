@@ -1,0 +1,15 @@
+<mat-card  style="height:100%; margin: 20px;">
+  <h2>ROI Calculater</h2>
+ 
+  <mat-card-content>
+    <form class="example-form">
+      <mat-form-field class="example-full-width" style="font-size: xx-large">
+      <input matInput placeholder="House Price" [(ngModel)]="inputData.houseprice" name="HousePrice" (input)="calculateResult()">
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width"  style="font-size: xx-large">
+        <input matInput placeholder="Monthly Rent" [(ngModel)]="inputData.houseRent" name="HouseRent" (input)="calculateResult()">
+      </mat-form-field>
+    </form>
+  </mat-card-content>
+</mat-card>

@@ -1,0 +1,16 @@
+<mat-card style="height:100%; margin: 20px;">
+  <mat-card-title>
+    <h2>Mortgage</h2>
+  </mat-card-title>
+  <mat-card-content>
+
+    <h4>
+      <p>House Price : <b>{{mortgage?.housePrice | currency : 'GBP' }}</b></p>
+      <p>Mortgate Amount : <b>{{mortgage?.mortgageAmount | currency : 'GBP'}}</b></p>
+      <h4>Amount Required: {{mortgage?.amountRequired | currency : 'GBP' }}</h4>
+      <p>Deposit : <b>{{mortgage?.deposit | currency : 'GBP'}}</b></p>
+      <p>Broker, Solictor and Stamp Duty :<b>{{mortgage?.fees | currency : 'GBP' }}</b></p>
+    </h4>
+
+  </mat-card-content>
+</mat-card>
