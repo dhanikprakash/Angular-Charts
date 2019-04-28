@@ -3,17 +3,24 @@ import { NgModule } from '@angular/core';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { MaterialModule } from './modules/material/material.module';
-import { UserinputComponent } from './components/roi/userinput.component';
+import { UserinputComponent } from './components/userinput/userinput.component';
 import { ResultComponent } from './components/mortgage/result.component';
 import { FormsModule } from '@angular/forms';
 import { RentComponent } from './components/rent/rent.component';
 import { MatFormFieldModule, MatInputModule } from '@angular/material';
+import { PiechartComponent } from './components/piechart/piechart.component';
+import { BarchartComponent } from './components/barchart/barchart.component';
+import { InputComponent } from './components/input/input.component';
+import { GoogleChartsModule } from 'angular-google-charts';
 @NgModule({
   declarations: [
     AppComponent,
     UserinputComponent,
     ResultComponent,
-    RentComponent
+    RentComponent,
+    PiechartComponent,
+    BarchartComponent,
+    InputComponent
   ],
   imports: [
     BrowserModule,
@@ -21,6 +28,7 @@ import { MatFormFieldModule, MatInputModule } from '@angular/material';
     MaterialModule,
     FormsModule,
     MatInputModule,
+    GoogleChartsModule,
     MatFormFieldModule
   ],
   providers: [],
