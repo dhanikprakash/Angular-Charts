@@ -9,3 +9,11 @@ table {
   .dataTableContent{
       margin:10px;
   }
+
+  th.mat-sort-header-sorted {
+    color: black;
+  }
+.mat-header-cell {
+    font-weight: bold;
+
+}

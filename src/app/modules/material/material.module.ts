@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import {MatButtonModule, MatCheckboxModule, MatInputModule, MatFormFieldModule, MatRadioModule} from '@angular/material';
+import { MatButtonModule, MatCheckboxModule, MatInputModule, MatFormFieldModule, MatRadioModule } from '@angular/material';
 import {
   MatMenuModule,
   MatToolbarModule,
@@ -8,16 +8,16 @@ import {
   MatDialogModule,
   MatDatepickerModule,
   MatNativeDateModule,
-
-  MatPaginatorModule ,
+  MatSortModule,
+  MatPaginatorModule,
   MatTableModule,
   MatSelectModule,
-  
+
 } from '@angular/material';
 
 @NgModule({
   imports: [MatButtonModule,
-     MatCheckboxModule,
+    MatCheckboxModule,
     MatInputModule,
     MatRadioModule,
     MatMenuModule,
@@ -28,11 +28,12 @@ import {
     MatSelectModule,
     MatDatepickerModule,
     MatNativeDateModule,
-    MatPaginatorModule ,
+    MatPaginatorModule,
     MatTableModule,
+    MatSortModule,
     MatFormFieldModule],
   exports: [MatButtonModule,
-     MatCheckboxModule,
+    MatCheckboxModule,
     MatInputModule,
     MatRadioModule,
     MatMenuModule,
@@ -43,8 +44,8 @@ import {
     MatSelectModule,
     MatDatepickerModule,
     MatNativeDateModule,
-
-    MatPaginatorModule ,
+    MatSortModule,
+    MatPaginatorModule,
     MatTableModule,
     MatFormFieldModule],
   declarations: []
