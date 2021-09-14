@@ -39,7 +39,7 @@
     "rxjs": "^6.5.1",
     "save-dev": "0.0.1-security",
     "serialize-javascript": "^5.0.1",
-    "set-value": "^3.0.2",
+    "set-value": "^4.0.1",
     "sha.js": "^2.4.11",
     "sha256": "^0.2.0",
     "tweetnacl-util": "^0.15.0",
