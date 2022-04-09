@@ -34,7 +34,7 @@
     "js-sha256": "^0.9.0",
     "lodash": "^4.17.21",
     "mixin-deep": "^2.0.1",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "ngx-moment": "^3.4.0",
     "rxjs": "^6.5.1",
     "save-dev": "0.0.1-security",
